@@ -1,5 +1,6 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('adventure')
+const backgroundMusic = new Audio('audio/1066AD.mp3')
 
 let state = {}
 
@@ -21,6 +22,9 @@ function showTextNode(textDex) {
       button.innerText = option.text
       button.classList.add('action')
       button.addEventListener('click', () => selectOption(option))
+      backgroundMusic.play()
+      backgroundMusic.volume = 0.5
+      backgroundMusic.loop = true
       optionButtonsElement.appendChild(button)
     }
   })
