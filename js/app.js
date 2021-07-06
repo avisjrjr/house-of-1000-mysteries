@@ -160,6 +160,161 @@ const textNodes = [
     }
   ]
 },
+{
+  id: 5,
+  text: "You found a magic wand, will you pilfer it?",
+  options:[
+    {
+    text: 'yes',
+    setState: {magicWand: true},
+    nextText: 6
+    },
+    {
+    text: 'Stealing is bad',
+    setState: {magicWand: false},
+    nextText: 6
+    },
+    {
+      text: 'no',
+      setState: {magicWand: false},
+      nextText: 6
+    },
+  ]
+},
+{
+  id: 6,
+  text: "You hear someone eneter the room",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 7
+    }
+  ]
+},
+{
+  id: 7,
+  text: "Its the skeleTon, and he has a bone to pick with you! What do?",
+  options:[
+    {
+    text: 'nothig',
+    nextText: 70
+    },
+    {
+      text: 'Offer magic wand',
+      requiredState: (currentState) => currentState.magicWand,
+      setState: {magicWand: true},
+      nextText: 70
+    },
+    {
+      text: 'Equip magic wand',
+      requiredState: (currentState) => currentState.magicWand,
+      setState: {magicWand: true},
+      nextText: 8
+    },
+    {
+      text: 'Accept death',
+      nextText: 70
+    }
+  ]
+},
+{
+  id: 70,
+  text: "You have become die.",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 13
+    }
+  ]
+},
+{
+  id: 8,
+  text: "Will you fight or become die?",
+  options:[
+    {
+    text: 'Fight!',
+    nextText: 9
+    },
+    {
+      text: 'hesitate',
+      nextText: 81
+    },
+    {
+      text: 'Become die',
+      nextText: 70
+    }
+  ]
+},
+{
+  id: 9,
+  text: "Congrations! you have defeated the skeleTon!",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 15
+    }
+  ]
+},
+{
+  id: 15,
+  text: "Before you can celebrate your victory you hear several people enter the house.",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 16
+    }
+  ]
+},
+{
+  id: 16,
+  text: "It's the police",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 17
+    }
+  ]
+},
+{
+  id: 17,
+  text: "You have assualted the skeleTon in its own home. you are quickly arrested.",
+  options:[
+    {
+    text: 'accept fate',
+    nextText: 18
+    }
+  ]
+},
+{
+  id: 18,
+  text: "Return to Chicago",
+  options:[
+    {
+    text: 'restart',
+    nextText: -1
+    }
+  ]
+},
+{
+  id: 81,
+  text: "The skeleton also has a magic wand!",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 82
+    }
+  ]
+},
+{
+  id: 82,
+  text: "You have entered a stalemate",
+  options:[
+    {
+    text: 'Game over',
+    nextText: -1
+    }
+  ]
+},
 ]
 
 
