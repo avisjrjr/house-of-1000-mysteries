@@ -115,7 +115,51 @@ const textNodes = [
     nextText: -1
     }
   ]
-}
+},
+{
+  id: 3,
+  text: "You have fleed from the skeleTon, what do now?",
+  options:[
+    {
+    text: 'Leave',
+    nextText: 10
+    },
+    {
+      text: "Go back",
+      nextText: 13
+    },
+    {
+      text: "Explore more",
+      nextText: 4
+    }
+  ]
+},
+{
+  id: 4,
+  text: "You find a room with a chest, what do?",
+  options:[
+    {
+    text: 'nothing',
+    setState: {magicWand: false},
+    nextText: 6
+    },
+    {
+      text: 'Stare at it',
+      setState: {magicWand: false},
+      nextText: 6
+    },
+    {
+      text: 'Open chest',
+      setState: {magicWand: true},
+      nextText: 5
+    },
+    {
+      text: 'Break the chest',
+      setState: {magicWand: false},
+      nextText: 6
+    }
+  ]
+},
 ]
 
 
