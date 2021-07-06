@@ -54,12 +54,12 @@ const textNodes = [
       },
       {
         text: 'Leave',
-        nextText: 20
+        nextText: 10
       }
     ]
   },
   {
-    id: 20,
+    id: 10,
     text: 'You win I guess?',
     options: [
       {
@@ -70,14 +70,53 @@ const textNodes = [
   },
   {
     id: 2,
-    text: 'The code works!',
+    text: 'You encounter a skeleTon, what do?',
     options: [
       {
-      text: 'Restart for now',
-      nextText: -1
-      }
+      text: 'Hang out with skeleTon',
+      nextText: 11
+      },
+      {
+          text: 'Flee',
+          nextText: 3 
+      },
+      {
+          text: 'Beat its bony ass',
+          nextText: 13
+          }
     ]
   },
+  {
+  id: 11,
+  text: "You hang out with the skeleTon, he's actually pretty cool",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 12
+    }
+  ]
+},
+{
+  id: 12,
+  text: "Betrayl",
+  options:[
+    {
+    text: 'Contine',
+    nextText: 13
+    }
+  ]
+},
+{
+  id: 13,
+  text: "You lose, become skeleton",
+  options:[
+    {
+    text: 'Restart',
+    nextText: -1
+    }
+  ]
+}
 ]
+
 
 startGame()
