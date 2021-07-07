@@ -42,7 +42,10 @@ function selectOption(option) {
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
 }
-
+// var img = new Image();
+// img.onload = function () {
+// }
+// img.src = "./bonezone/entry.jpg";
 const textNodes = [
   {
     id: 1,
