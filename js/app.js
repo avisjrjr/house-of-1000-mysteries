@@ -186,7 +186,7 @@ const textNodes = [
 },
 {
   id: 6,
-  text: "You hear someone eneter the room",
+  text: "You hear someone enter the room",
   options:[
     {
     text: 'Contine',
@@ -199,7 +199,7 @@ const textNodes = [
   text: "Its the skeleTon, and he has a bone to pick with you! What do?",
   options:[
     {
-    text: 'Nothig',
+    text: 'Nothing',
     nextText: 70
     },
     {
@@ -220,7 +220,7 @@ const textNodes = [
     }
   ]
 },
-{
+{ 
   id: 70,
   text: "You have become die.",
   options:[
