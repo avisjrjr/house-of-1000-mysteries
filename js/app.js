@@ -1,28 +1,7 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('adventure')
 const backgroundMusic = new Audio('audio/1066AD.mp3')
-// var img = new Image();
-// img.src="./bonezone/entry.jpg"
-// img.src="./bonezone/encounter.jpg"
-// img.src="./bonezone/enterflee.jpg"
-// img.src="./bonezone/chill.jpg"
-// img.src="./bonezone/betray.jpg"
-// img.src="./bonezone/betray2.jpg"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src="./bonezone/"
-// img.src=;
+const image = document.getElementById("journey")
 
 let state = {}
 
@@ -34,6 +13,7 @@ function startGame() {
 function showTextNode(textDex) {
   const textNode = textNodes.find(textNode => textNode.id === textDex)
   textElement.innerText = textNode.text
+  image.src= textNode.image
   while (optionButtonsElement.firstChild) {
     optionButtonsElement.removeChild(optionButtonsElement.firstChild)
   }
@@ -64,13 +44,10 @@ function selectOption(option) {
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
 }
-// var img = new Image();
-// img.onload = function () {
-// }
-// img.src = "./bonezone/entry.jpg";
 const textNodes = [
   {
     id: 1,
+    image: "./bonezone/entry.jpg",
     text: 'You have entered the House of 1000 Mysteries. What will you do?',
     options: [
       {
@@ -95,6 +72,7 @@ const textNodes = [
   },
   {
     id: 2,
+    image: "./bonezone/encounter.jpg",
     text: 'You encounter a skeleTon, what do?',
     options: [
       {

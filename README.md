@@ -10,10 +10,10 @@
 ### I just really wanted to make a silly adventure game in the vein of one of those old school text adventure games. I thought it would be cool to write my own scenario and options for them and it was also a challenge to myself.
 
 # Prototype
-![wireframe](https://imgur.com/Udq6SYT)
+![wireframe](https://i.imgur.com/Udq6SYT.jpg)
 
 # Here is a screenshot of the game:
-![screenshot](https://imgur.com/ql95v09)
+![screenshot](https://i.imgur.com/ql95v09.jpg)
 
 # Technology Implemented:
 * HTML
