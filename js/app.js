@@ -84,7 +84,7 @@ const textNodes = [
           nextText: 3 
       },
       {
-          text: 'Beat its bony ass',
+          text: 'Beat its boney ass',
           nextText: 13
           }
     ]
@@ -142,7 +142,7 @@ const textNodes = [
   text: "You find a room with a chest, what do?",
   options:[
     {
-    text: 'nothing',
+    text: 'Nothing',
     setState: {magicWand: false},
     nextText: 6
     },
@@ -168,7 +168,7 @@ const textNodes = [
   text: "You found a magic wand, will you pilfer it?",
   options:[
     {
-    text: 'yes',
+    text: 'Yes',
     setState: {magicWand: true},
     nextText: 6
     },
@@ -178,7 +178,7 @@ const textNodes = [
     nextText: 6
     },
     {
-      text: 'no',
+      text: 'No',
       setState: {magicWand: false},
       nextText: 6
     },
@@ -199,7 +199,7 @@ const textNodes = [
   text: "Its the skeleTon, and he has a bone to pick with you! What do?",
   options:[
     {
-    text: 'nothig',
+    text: 'Nothig',
     nextText: 70
     },
     {
@@ -239,7 +239,7 @@ const textNodes = [
     nextText: 9
     },
     {
-      text: 'hesitate',
+      text: 'Hesitate',
       nextText: 81
     },
     {
@@ -283,7 +283,7 @@ const textNodes = [
   text: "You have assualted the skeleTon in its own home. you are quickly arrested.",
   options:[
     {
-    text: 'accept fate',
+    text: 'Accept fate',
     nextText: 18
     }
   ]
@@ -293,7 +293,7 @@ const textNodes = [
   text: "Return to Chicago",
   options:[
     {
-    text: 'restart',
+    text: 'Restart',
     nextText: -1
     }
   ]
