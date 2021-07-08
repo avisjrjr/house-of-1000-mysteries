@@ -1,4 +1,41 @@
-# house-of-1000-mysteries
-# The song is pretty good but I may change it later.
-# The song is titled "1066 AD" and was created by 28BEATS link is listed below
-# https://www.youtube.com/watch?v=yj8K4yi3x5c
+# House of 1000 mysteries
+
+## Objective:
+### - Create a text based adventure game with multiple scenarios using HTML, CSS and JS.
+
+## To play the game:
+### Click [here](https://www.google.com/) to play the game
+
+# Motivation:
+### I just really wanted to make a silly adventure game in the vein of one of those old school text adventure games. I thought it would be cool to write my own scenario and options for them and it was also a challenge to myself.
+
+# Prototype
+![wireframe](https://imgur.com/Udq6SYT)
+
+# Here is a screenshot of the game:
+![screenshot](https://imgur.com/ql95v09)
+
+# Technology Implemented:
+* HTML
+* JavaScript
+* CSS
+* Git
+
+# Credits:
+### The song is pretty good but I may change it later.
+### The song is titled "[1066 AD](https://www.youtube.com/watch?v=yj8K4yi3x5c)" and was created by 28BEATS 
+
+# Pseudocode:
+* Define constants
+* Create objects for each question and choice
+* Cache paragraph buttons
+* Create event listeners for answers/buttons
+* Create winning solution and fail states
+* Create a function that logs each choice the user has chosen 
+* Create another function that replaces the dialogue boxes
+
+
+
+# Things to add in the future:
+* Add pictures for each prompt
+* A start page

@@ -1,6 +1,28 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('adventure')
 const backgroundMusic = new Audio('audio/1066AD.mp3')
+var img = new Image();
+img.src="./bonezone/entry.jpg"
+img.src="./bonezone/encounter.jpg"
+img.src="./bonezone/enterflee.jpg"
+img.src="./bonezone/chill.jpg"
+img.src="./bonezone/betray.jpg"
+img.src="./bonezone/betray2.jpg"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src="./bonezone/"
+img.src=
 
 let state = {}
 
