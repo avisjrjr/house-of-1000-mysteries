@@ -4,7 +4,7 @@
 ### - Create a text based adventure game with multiple scenarios using HTML, CSS and JS.
 
 ## To play the game:
-### Click [here](https://www.google.com/) to play the game
+### Click [here](house-of-1000-mysteries.surge.sh) to play the game
 
 # Motivation:
 ### I just really wanted to make a silly adventure game in the vein of one of those old school text adventure games. I thought it would be cool to write my own scenario and options for them and it was also a challenge to myself.
