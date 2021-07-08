@@ -1,6 +1,47 @@
 body {
-   background-color: pink; 
+   background-image: url('https://ctl.s6img.com/society6/img/XwPVT5-2iWMchyOwGguQwyGpjyc/w_1500/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-152,iw_4600,ih_2304/s6-original-art-uploads/society6/uploads/misc/cfcb876ea05e469aa8336908a988ade2/~~/dungeon-wall-twilight-mugs.jpg') ; 
+   background-size: cover;
 }
 img {
    height: 350px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 25px;
+  font-family: 'Yatra One', cursive;
+}
+
+.container {
+  width: 650px;
+  max-width: 80%;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.choice {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.action {
+  background-color: blue;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+.action:hover {
+  border-color: black;
 }
