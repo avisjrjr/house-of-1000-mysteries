@@ -136,8 +136,8 @@ const textNodes = [
 },
 {
   id: 13,
-  text: "You lose, become skeleton",
-  image: "./bonezone/betray2.jpg",
+  text: "You lose, become skeleton.",
+  image: "./bonezone/skellohand.jpg",
   options:[
     {
     text: 'Restart',
