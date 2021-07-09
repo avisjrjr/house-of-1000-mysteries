@@ -1,9 +1,7 @@
-body {
-   background-image: url('https://ctl.s6img.com/society6/img/XwPVT5-2iWMchyOwGguQwyGpjyc/w_1500/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-152,iw_4600,ih_2304/s6-original-art-uploads/society6/uploads/misc/cfcb876ea05e469aa8336908a988ade2/~~/dungeon-wall-twilight-mugs.jpg') ; 
-   background-size: cover;
-}
 img {
    height: 350px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px 2px rgb(187, 60, 155);
 }
 
 body {
@@ -16,12 +14,14 @@ body {
   height: 100vh;
   font-size: 25px;
   font-family: 'Yatra One', cursive;
+  background-image: url('https://ctl.s6img.com/society6/img/XwPVT5-2iWMchyOwGguQwyGpjyc/w_1500/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-152,iw_4600,ih_2304/s6-original-art-uploads/society6/uploads/misc/cfcb876ea05e469aa8336908a988ade2/~~/dungeon-wall-twilight-mugs.jpg') ; 
+   background-size: cover;
 }
 
 .container {
   width: 650px;
   max-width: 80%;
-  background-color: gray;
+  background-color: rgb(83, 83, 83);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
@@ -36,12 +36,23 @@ body {
 
 .action {
   background-color: blue;
-  border: 3px solid black;
+  /* border: 3px solid black; */
+  box-shadow: 0 5px 10px 0 rgb(187, 86, 56);
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
   outline: none;
 }
 .action:hover {
-  border-color: black;
+  background-color: rgb(71, 22, 71);
+}
+div.top {
+  top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  font-size: 65px;
+  color: rgb(55, 31, 61);
 }

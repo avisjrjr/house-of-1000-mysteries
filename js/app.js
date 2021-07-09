@@ -62,6 +62,7 @@ const textNodes = [
   },
   {
     id: 10,
+    image: "./bonezone/entry.jpg",
     text: 'You win I guess?',
     options: [
       {
@@ -92,6 +93,7 @@ const textNodes = [
   {
   id: 11,
   text: "You hang out with the skeleTon, he's actually pretty cool",
+  image: "./bonezone/chill.jpg",
   options:[
     {
     text: 'Contine',
@@ -102,6 +104,7 @@ const textNodes = [
 {
   id: 12,
   text: "Betrayl",
+  image: "./bonezone/betray.jpg",
   options:[
     {
     text: 'Contine',
@@ -112,6 +115,7 @@ const textNodes = [
 {
   id: 13,
   text: "You lose, become skeleton",
+  image: "./bonezone/betray2.jpg",
   options:[
     {
     text: 'Restart',
@@ -122,6 +126,7 @@ const textNodes = [
 {
   id: 3,
   text: "You have fleed from the skeleTon, what do now?",
+  image: "./bonezone/return.jpg",
   options:[
     {
     text: 'Leave',
@@ -140,6 +145,7 @@ const textNodes = [
 {
   id: 4,
   text: "You find a room with a chest, what do?",
+  image: "./bonezone/chest1.jpg",
   options:[
     {
     text: 'Nothing',
@@ -165,6 +171,7 @@ const textNodes = [
 },
 {
   id: 5,
+  image: "./bonezone/openchest.jpg",
   text: "You found a magic wand, will you pilfer it?",
   options:[
     {
@@ -186,6 +193,7 @@ const textNodes = [
 },
 {
   id: 6,
+  image: "./bonezone/openchest.jpg",
   text: "You hear someone enter the room",
   options:[
     {
@@ -196,6 +204,7 @@ const textNodes = [
 },
 {
   id: 7,
+  image: "./bonezone/encounter.jpg",
   text: "Its the skeleTon, and he has a bone to pick with you! What do?",
   options:[
     {
@@ -212,7 +221,7 @@ const textNodes = [
       text: 'Equip magic wand',
       requiredState: (currentState) => currentState.magicWand,
       setState: {magicWand: true},
-      nextText: 8
+      nextText: 88
     },
     {
       text: 'Accept death',
@@ -220,8 +229,21 @@ const textNodes = [
     }
   ]
 },
+{
+  id: 88,
+  image: "./bonezone/equip.jpg",
+  text: "You have equiped the magic wand.",
+  options:[
+    {
+    text: 'Continue',
+    setState: {magicWand: true},
+    nextText: 8
+    },
+  ]
+},
 { 
   id: 70,
+  image: "./bonezone/become.jpg",
   text: "You have become die.",
   options:[
     {
@@ -232,6 +254,7 @@ const textNodes = [
 },
 {
   id: 8,
+  image: "./bonezone/prefight.jpg",
   text: "Will you fight or become die?",
   options:[
     {
@@ -250,6 +273,7 @@ const textNodes = [
 },
 {
   id: 9,
+  image: "./bonezone/winrar.jpg",
   text: "Congrations! you have defeated the skeleTon!",
   options:[
     {
@@ -260,6 +284,7 @@ const textNodes = [
 },
 {
   id: 15,
+  image: "./bonezone/winrar.jpg",
   text: "Before you can celebrate your victory you hear several people enter the house.",
   options:[
     {
@@ -270,6 +295,7 @@ const textNodes = [
 },
 {
   id: 16,
+  image: "./bonezone/police1.jpg",
   text: "It's the police",
   options:[
     {
@@ -280,6 +306,7 @@ const textNodes = [
 },
 {
   id: 17,
+  image: "./bonezone/police.jpg",
   text: "You have assualted the skeleTon in its own home. you are quickly arrested.",
   options:[
     {
@@ -290,6 +317,7 @@ const textNodes = [
 },
 {
   id: 18,
+  image: "./bonezone/chicago.jpg",
   text: "Return to Chicago",
   options:[
     {
@@ -300,6 +328,7 @@ const textNodes = [
 },
 {
   id: 81,
+  image: "./bonezone/stalemate.jpg",
   text: "The skeleton also has a magic wand!",
   options:[
     {
@@ -310,6 +339,7 @@ const textNodes = [
 },
 {
   id: 82,
+  image: "./bonezone/stalemate.jpg",
   text: "You have entered a stalemate",
   options:[
     {
