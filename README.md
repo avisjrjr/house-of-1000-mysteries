@@ -12,8 +12,10 @@
 # Prototype
 ![wireframe](https://i.imgur.com/Udq6SYT.jpg)
 
-# Here is a screenshot of the game:
-![screenshot](https://i.imgur.com/ql95v09.jpg)
+# Here are screenshots of the game:
+![screenshot](https://i.imgur.com/7LQqos8.jpg)
+![screenshot2](https://i.imgur.com/e69mbkx.jpg)
+![screenshot3](https://i.imgur.com/q8kmgHM.jpg)
 
 # Technology Implemented:
 * HTML
