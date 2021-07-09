@@ -172,12 +172,12 @@ const textNodes = [
     {
     text: 'Nothing',
     setState: {magicWand: false},
-    nextText: 6
+    nextText: 61
     },
     {
       text: 'Stare at it',
       setState: {magicWand: false},
-      nextText: 6
+      nextText: 61
     },
     {
       text: 'Open chest',
@@ -187,7 +187,18 @@ const textNodes = [
     {
       text: 'Break the chest',
       setState: {magicWand: false},
-      nextText: 6
+      nextText: 61
+    }
+  ]
+},
+{
+  id: 61,
+  image: "./bonezone/chest1.jpg",
+  text: "You hear someone enter the room",
+  options:[
+    {
+    text: 'Continue',
+    nextText: 7
     }
   ]
 },
@@ -265,7 +276,7 @@ const textNodes = [
 },
 { 
   id: 70,
-  image: "./bonezone/become.jpg",
+  image: "./bonezone/encounter.jpg",
   text: "You have become die.",
   options:[
     {
