@@ -86,8 +86,19 @@ const textNodes = [
       },
       {
           text: 'Beat its boney ass',
-          nextText: 13
+          nextText: 1333
           }
+    ]
+  },
+  {
+    id: 1333,
+    text: "You cannot defeat a skeleTon in hand to hand combat. Everyone knows this!",
+    image: "./bonezone/encounter.jpg",
+    options:[
+      {
+      text: 'Continue',
+      nextText: 13
+      }
     ]
   },
   {
