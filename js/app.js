@@ -92,23 +92,34 @@ const textNodes = [
   },
   {
   id: 11,
-  text: "You hang out with the skeleTon, he's actually pretty cool",
+  text: "You hang out with the skeleTon, he's actually pretty cool!",
   image: "./bonezone/chill.jpg",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 12
     }
   ]
 },
 {
   id: 12,
-  text: "Betrayl",
+  text: "Until betrayl.",
   image: "./bonezone/betray.jpg",
   options:[
     {
-    text: 'Contine',
-    nextText: 13
+    text: 'Continue',
+    nextText: 133
+    }
+  ]
+},
+{
+  id: 133,
+  text: "Never trust a skeleTon. You lose.",
+  image: "./bonezone/betray2.jpg",
+  options:[
+    {
+    text: 'Restart',
+    nextText: -1
     }
   ]
 },
@@ -197,7 +208,7 @@ const textNodes = [
   text: "You hear someone enter the room",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 7
     }
   ]
@@ -247,7 +258,7 @@ const textNodes = [
   text: "You have become die.",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 13
     }
   ]
@@ -274,10 +285,10 @@ const textNodes = [
 {
   id: 9,
   image: "./bonezone/winrar.jpg",
-  text: "Congrations! you have defeated the skeleTon!",
+  text: "Congrations! You have defeated the skeleTon!",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 15
     }
   ]
@@ -288,7 +299,7 @@ const textNodes = [
   text: "Before you can celebrate your victory you hear several people enter the house.",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 16
     }
   ]
@@ -296,10 +307,10 @@ const textNodes = [
 {
   id: 16,
   image: "./bonezone/police1.jpg",
-  text: "It's the police",
+  text: "It's the police.",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 17
     }
   ]
@@ -318,7 +329,7 @@ const textNodes = [
 {
   id: 18,
   image: "./bonezone/chicago.jpg",
-  text: "Return to Chicago",
+  text: "Return to Chicago.",
   options:[
     {
     text: 'Restart',
@@ -332,7 +343,7 @@ const textNodes = [
   text: "The skeleton also has a magic wand!",
   options:[
     {
-    text: 'Contine',
+    text: 'Continue',
     nextText: 82
     }
   ]
@@ -340,7 +351,7 @@ const textNodes = [
 {
   id: 82,
   image: "./bonezone/stalemate.jpg",
-  text: "You have entered a stalemate",
+  text: "You have entered a stalemate.",
   options:[
     {
     text: 'Game over',
